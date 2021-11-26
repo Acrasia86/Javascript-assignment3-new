@@ -16,7 +16,7 @@ let questions = [
   },
   {
     questionText: "Who played in the movie Battle Los Angeles?",
-    answers: ["Aaron Eckhart", "Vin Diesel", "Prat Pitt"],
+    answers: ["Aaron Eckhart", "Vin Diesel", "Prad Pitt"],
     correctAnswer: "Aaron Eckhart",
   },
   {
