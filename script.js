@@ -10,7 +10,7 @@ let questions = [
     correctAnswer: "True",
   },
     {
-    questionText: "James Corden played in IRobot?",
+    questionText: "James Corden played in IRobot",
     answers: ["True", "False"],
     correctAnswer: "False",
   },
