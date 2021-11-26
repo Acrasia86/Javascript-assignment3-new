@@ -86,17 +86,17 @@ width: 100vw;
 }
 
 .game-header {
-    color: rgb(0, 243, 203);
+    color: black;
     margin-bottom: 50px;
     animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00a5e6, 0 0 40px #00a5e6, 0 0 50px #00a5e6, 0 0 60px #00a5e6, 0 0 70px #00a5e6;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e600c0, 0 0 40px #e600c0, 0 0 50px #e600c0, 0 0 60px #e600c0, 0 0 70px #e600c0;
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #14addb, 0 0 40px #14addb, 0 0 50px #14addb, 0 0 60px #14addb, 0 0 70px #14addb, 0 0 80px #14addb;
+      text-shadow: 0 0 20px #fff, 0 0 30px #4d1243, 0 0 40px #4d1243, 0 0 50px #4d1243, 0 0 60px #4d1243, 0 0 70px #4d1243, 0 0 80px #4d1243;
     }
   }

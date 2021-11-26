@@ -189,7 +189,8 @@ function checkYourScore() {
 
 function switchToDarkMode() {
 
-
+    let gameLogo = document.querySelector('.game-header');
+    gameLogo.classList.toggle('darkmode-for-labels');
     let getAnswersElements = document.querySelectorAll('.answers div');
     let getDarkModeLabels = document.querySelectorAll('.darkmode-label');
     for(let i = 0; i < getDarkModeLabels.length; i++) {
