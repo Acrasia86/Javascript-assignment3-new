@@ -88,7 +88,7 @@ width: 100vw;
 .game-header {
     color: black;
     margin-bottom: 50px;
-    animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
