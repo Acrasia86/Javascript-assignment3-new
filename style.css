@@ -84,3 +84,19 @@ width: 100vw;
     display: flex;
     justify-content: center;
 }
+
+.game-header {
+    color: rgb(0, 243, 203);
+    margin-bottom: 50px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00a5e6, 0 0 40px #00a5e6, 0 0 50px #00a5e6, 0 0 60px #00a5e6, 0 0 70px #00a5e6;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #14addb, 0 0 40px #14addb, 0 0 50px #14addb, 0 0 60px #14addb, 0 0 70px #14addb, 0 0 80px #14addb;
+    }
+  }
