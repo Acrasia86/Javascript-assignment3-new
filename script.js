@@ -54,8 +54,8 @@ let scoreLabel = document.createElement('label');
 let darkModeLabel = document.querySelector('.darkmode-label');
 
 let newDiv;
-
 let newCheckbox;
+
 let score = 0;
 let maxScore = 7;
 let questionCounter = 0;
@@ -99,7 +99,7 @@ function nextQuestion() {
   checkAnswer();
 }
 
-function updateQuestionState() {
+function updateQuestionScoreState() {
     let checkBoxes = document.querySelectorAll(".answer-checkbox");
     newDiv.classList.add('newDiv');
   
@@ -135,7 +135,7 @@ function checkAnswer() {
 
   checkAnswerButton.addEventListener("click", function (e) {
  
-    updateQuestionState();
+    updateQuestionScoreState();
   
     if (questions.length - 1 > questionCounter) {
 
@@ -176,7 +176,7 @@ function checkYourScore() {
             scoreLabel.style.color = 'orange';
         }
         else if(score === maxScore) {
-            scoreLabel.style.color = 'green';
+            scoreLabel.style.color = '#1dd71d';
         }
        
         else {
