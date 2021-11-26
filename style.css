@@ -1,0 +1,78 @@
+
+html,body{overflow-x: hidden;}
+
+main {
+    background: rgba(34,46,56,1);
+background: -moz-linear-gradient(left, rgba(34,46,56,1) 0%, rgba(34,46,56,1) 3%, rgba(0,90,179,1) 52%, rgba(3,93,171,1) 72%, rgba(5,86,158,1) 77%, rgba(14,58,102,1) 98%, rgba(49,109,158,1) 100%);
+height: 100vh;
+width: 100vw;
+}
+
+.game-container {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question {
+    color: rgb(0, 198, 243);
+    background-color: black;
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(21, 145, 255);
+}
+
+.answers {
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3rem;
+    margin-top: 30px;
+
+}
+
+.answers div {
+    color: rgb(0, 198, 243);
+    background-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(21, 145, 255);
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.check-answer {
+    margin-top: 40px;
+}
+.dark-mode div{
+    background-color: black !important;
+    color: white !important;
+  }
+
+  .darkmode-for-labels{
+    background-color: black !important;
+    color: white !important;
+  }
+
+
+.darkmode-label {
+    color: rgb(0, 198, 243);
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+}
