@@ -1,5 +1,7 @@
 
-html,body{overflow-x: hidden;}
+html,body{overflow-x: hidden;
+    overflow-y: hidden;
+}
 
 main {
     /* background: rgba(34,46,56,1);
